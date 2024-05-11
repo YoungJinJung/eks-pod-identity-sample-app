@@ -2,7 +2,7 @@ spring:
   application:
     name: sample
   config:
-    import: optional:aws-secretsmanager:/secret/sample_cmshareapne22?prefix=secrets.
+    import: optional:aws-secretsmanager:/secret/sample_sample?prefix=secrets.
 
 sample:
   key: ${secrets.key}
