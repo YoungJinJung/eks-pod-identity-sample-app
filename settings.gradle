@@ -1,0 +1,4 @@
+rootProject.name = 'podidentity'
+include 'PodIdentity'
+include 'OldSecretsManager'
+

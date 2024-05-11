@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: sample
+  config:
+    import: optional:aws-secretsmanager:/secret/sample_cmshareapne22?prefix=secrets.
+
+sample:
+  key: ${secrets.key}
+  value: ${secrets.value}

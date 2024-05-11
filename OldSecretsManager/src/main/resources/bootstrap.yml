@@ -1,0 +1,10 @@
+aws:
+  secrets-manager:
+    name: sample
+    enabled: false
+    fail-fast: false
+
+cloud:
+  aws:
+    region:
+      static: ap-northeast-2
